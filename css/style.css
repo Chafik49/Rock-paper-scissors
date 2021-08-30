@@ -148,6 +148,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 5px solid gray;
 }
 
 
@@ -163,14 +164,19 @@ section {
     align-items: center;
     justify-content: center;
     z-index: 10;
+    transition: .5s;
+
+    border-bottom: 5px solid hsl(229, 56%, 40%);
+
     
 }
+
 .game-zone .choice-2{
     position: absolute;
     right: -20px;
     top: 0;
     background:linear-gradient(to bottom , hsl(39, 89%, 49%),hsl(40, 52%, 55%));
-    
+    border-bottom: 5px solid hsl(39, 89%, 40%);
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -178,6 +184,8 @@ section {
     align-items: center;
     justify-content: center;
     z-index: 10;
+    transition: .5s;
+
     
 }
 
@@ -186,7 +194,8 @@ section {
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
-    background:linear-gradient(to bottom , hsl(349, 71%, 52%), hsl(349, 70%, 56%));    
+    background:linear-gradient(to bottom , hsl(349, 71%, 52%), hsl(349, 70%, 56%)); 
+    border-bottom: 5px solid hsl(349,71%,40%);   
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -194,7 +203,15 @@ section {
     align-items: center;
     justify-content: center;
     z-index: 10;
-    
+    transition: .5s;
+}
+.choice-1:hover,
+.choice-2:hover{
+    transform: translateY(7px);
+}
+
+.choice-3:hover{
+    bottom: -7px;
 }
 
 @media (max-width:321px) {
