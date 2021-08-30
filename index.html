@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+
+  <!-- css link  -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+  <header class="header">
+    <div class="title">
+      <div class="Rock">ROCK</div>
+      <div class="Paper">PAPER</div>
+      <div class="Scissors">SCISSORS</div>
+    </div>
+
+    <div class="score">
+      <div class="text">Score</div>
+      <div class="score-value">0</div>
+    </div>
+  </header>
+  <section>
+    <div class="game-zone active">
+      <div class="choice choice-1 paper-choice">
+        <div class="item paper">
+          <img src="images/icon-paper.svg" alt="">
+        </div>
+      </div>
+      
+      <div class="choice choice-2 scissor-choice">
+        <div class="item scissor">
+          <img src="images/icon-scissors.svg" alt="">
+        </div>
+
+      </div>
+      
+      <div class="choice choice-3 rock-choice">
+        <div class="item rock">
+          <img src="images/icon-rock.svg" alt="">
+        </div>
+      </div>  
+    </div>
+    <div class="result-zone">
+      <div class="left-zone">
+        <h3>YOU PICKED</h3>
+        <div class="my-choices">
+
+          <div class="my-choice of choice choice-1 paper-choice">
+            <div class="item paper">
+              <img src="images/icon-paper.svg" alt="">
+            </div>
+          </div>
+          
+          <div class="my-choice of choice choice-2 scissor-choice">
+            <div class="item scissor">
+              <img src="images/icon-scissors.svg" alt="">
+            </div>
+    
+          </div>
+          
+          <div class="my-choice of choice choice-3 rock-choice">
+            <div class="item rock">
+              <img src="images/icon-rock.svg" alt="">
+            </div>
+          </div> 
+
+        </div>
+      </div>
+      <div class="center-zone">
+        <div class="result">YOU WIN</div>
+        <div class="play-again">PLAY AGAIN</div>
+      </div>
+      <div class="right-zone">
+        <h3>THE HOUSE PICKED</h3>
+        <div class="house-choices">
+          
+          <div class="house-choice of choice choice-1 paper-choice">
+            <div class="item paper">
+              <img src="images/icon-paper.svg" alt="">
+            </div>
+          </div>
+          
+          <div class="house-choice of choice choice-2 scissor-choice">
+            <div class="item scissor">
+              <img src="images/icon-scissors.svg" alt="">
+            </div>
+    
+          </div>
+          
+          <div class="house-choice of choice choice-3 rock-choice">
+            <div class="item rock">
+              <img src="images/icon-rock.svg" alt="">
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="rules-btn">RULES</div>
+
+    <div class="rule-zone">
+      <div class="top-bar">
+        <div class="rule-text">RULES</div>
+        <div class="close-icon">
+          <img src="images/icon-close.svg" alt="">
+        </div>
+      </div>
+      <div class="rule-img">
+        <img src="images/image-rules.svg" alt="">
+      </div>
+      
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
