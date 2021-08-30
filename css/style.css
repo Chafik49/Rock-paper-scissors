@@ -27,7 +27,7 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     background: linear-gradient(to right , hsl(214, 47%, 23%),hsl(237, 49%, 15%));
     overflow: hidden;
-    max-height: 100vh;
+    /* max-height: 150vh; */
 }
 
 
@@ -239,6 +239,7 @@ footer{
     font-size: 18px;
     cursor: pointer;
     transition: .4s;
+    /* margin-top: 20px; */
     
 }
 
